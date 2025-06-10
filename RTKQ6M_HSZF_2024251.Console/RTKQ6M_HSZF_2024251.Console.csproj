@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="9.4.2" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.22.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Spectre.Console" Version="0.49.1" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.49.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RTKQ6M_HSZF_2024251.Application\RTKQ6M_HSZF_2024251.Application.csproj" />
+    <ProjectReference Include="..\RTKQ6M_HSZF_2024251.Model\RTKQ6M_HSZF_2024251.Model.csproj" />
+    <ProjectReference Include="..\RTKQ6M_HSZF_2024251.Persistence.MsSq\RTKQ6M_HSZF_2024251.Persistence.MsSql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net8.0\" />
+  </ItemGroup>
+
+</Project>
