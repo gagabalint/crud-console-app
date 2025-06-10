@@ -3,28 +3,29 @@
 Egyszerű konzol alapú CRUD (Create, Read, Update, Delete) alkalmazás C# .NET-ben, adatbázis kapcsolattal.
 Hibakezelések a feladat követelményei miatt nem lettek implementálva.
 
-## 🚀 Funkciók
+## Funkciók
 
-- ✅ **Create** - Új rekordok hozzáadása
-- ✅ **Read** - Adatok listázása és lekérdezése
-- ✅ **Update** - Meglévő adatok módosítása  
-- ✅ **Delete** - Rekordok törlése
-- ✅ Adatbázis kapcsolat kezelése
+- **Create** - Új rekordok hozzáadása
+- **Read** - Adatok listázása és lekérdezése
+- **Update** - Meglévő adatok módosítása  
+- **Delete** - Rekordok törlése
+- Adatbázis kapcsolat kezelése
+- Lekérdezések készítése
 
-## 🛠️ Technológiák
+## Technológiák
 
 - **C# .NET** - Programozási nyelv és framework
 - **Entity Framework** - Adatbázis kezelés
 - **SQL Server** - Adatbázis
 - **Console Application** - Felhasználói interfész
 
-## 📋 Követelmények
+## Követelmények
 
 - .NET 8.0
 - Visual Studio 2022 
 - SQL Server
 
-## 🔧 Telepítés és futtatás
+## Telepítés és futtatás
 
 1. **Repository klónozása:**
    ```bash
@@ -39,7 +40,7 @@ Hibakezelések a feladat követelményei miatt nem lettek implementálva.
    - Parancssorból a Console mappában: `dotnet run`
 
 
-## 🎯 Használat
+## Használat
 
 Az alkalmazás indítása után egy menü jelenik meg:
 
@@ -54,7 +55,7 @@ Upload Data
 Válassz egy opciót a nyilakkal és enterrel, majd követsd az utasításokat.
 
 
-## 🔍 Példa működés
+## Példa működés
 
 ```
 Új vonal hozzáadása:
